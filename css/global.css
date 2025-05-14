@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  opacity: 70%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: "Inter 18pt", sans-serif;
+  font-weight: 700;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1560px) {
+  .container {
+    max-width: 1560px;
+  }
+}
+
+.button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #437545 0%, #082b1d 100%);
+  border: none;
+  border-radius: 17px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 70%;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1700px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>REVOLUTION</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="preloader">
+      <div class="logo-container">
+        <img
+          src="./image/icons/grey-logo.svg"
+          alt="Логотип серый"
+          class="logo-grey"
+        />
+        <img src="./image/icons/logo.svg" alt="Логотип" class="logo-color" />
+      </div>
+    </div>
+    <header class="header">
+      <div class="container header-inner">
+        <nav class="menu">
+          <ul class="list">
+            <li class="list__item">
+              <a href="#" class="list__link list__link_active">ГЛАВНАЯ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">ФОРУМ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">О СЕРВЕРЕ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">НАЧАТЬ ИГРУ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">СКАЧАТЬ</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="logo">
+          <img
+            src="./image/logo.png"
+            srcset="./image/logo.png 1x, ./image/logo_2x.png 2x"
+            alt="REVOLUTION логотип"
+            class="logo-image"
+          />
+        </a>
+        <div class="header-buttons-inner">
+          <a href="#" class="header-link">РЕГИСТРАЦИЯ</a>
+          <button class="header-button button">ЛИЧНЫЙ КАБИНЕТ</button>
+        </div>
+        <button class="menu-toggle" aria-label="Меню">
+          <span class="menu-toggle-line"></span>
+          <span class="menu-toggle-line"></span>
+          <span class="menu-toggle-line"></span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-info">
+            <h1 class="hero-title">ДОБРО ПОЖАЛОВАТЬ К НАМ НА СЕРВЕР!</h1>
+            <p class="hero-text">
+              где вы сможете вновь ощутить атмосферу постоянного развития игры,
+              как это было на официальном сервере. Мы предлагаем уникальный опыт
+              прохождения всех этапов Идеального Мира — от версии 1.3.6 до
+              актуальной версии.
+            </p>
+            <div class="hero-buttons-inner">
+              <button class="hero-button button">НАЧАТЬ ИГРУ</button>
+              <button class="hero-button hero-button_inactiv button">
+                О СЕРВЕРЕ
+              </button>
+            </div>
+          </div>
+          <img
+            class="hero-image"
+            src="./image/hero-ilustration.png"
+            srcset="
+              ./image/hero-ilustration.png    1x,
+              ./image/hero-ilustration_2x.png 2x
+            "
+            alt="элис"
+          />
+          <div class="timer">
+            <h3 class="timer-title">ДО ОТКРЫТИЯ ФОРУМА:</h3>
+            <div class="timer-items-inner">
+              <div class="timer-item">
+                <span class="timer-item__number" id="days">0</span>
+                <span class="timer-item__time">ДНЕЙ</span>
+              </div>
+              <div class="timer-item">
+                <span class="timer-item__number" id="hours">0</span>
+                <span class="timer-item__time">ЧАСОВ</span>
+              </div>
+              <div class="timer-item">
+                <span class="timer-item__number" id="minutes">0</span>
+                <span class="timer-item__time">МИНУТ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="road-map">
+        <div class="container road-map__inner">
+          <h2 class="road-map-title">Дорожная карта</h2>
+          <div class="timeline">
+            <div class="timeline-item-inner">
+              <div class="timeline-item">
+                <span class="timeline-item__number">1</span>
+              </div>
+              <div class="timeline-card timeline-card_right">
+                <h3 class="timeline-card__title">
+                  ??.0?.25 Открытие проекта версии 1.3.6
+                </h3>
+                <ul class="timeline-card__list">
+                  <li class="timeline-card__item">
+                    стандартная версия 1.3.6 Х3
+                  </li>
+                  <li class="timeline-card__item">
+                    незначительные модификации
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item-inner">
+              <div class="timeline-item">
+                <span class="timeline-item__number">2</span>
+              </div>
+              <div class="timeline-card timeline-card_left">
+                <h3 class="timeline-card__title">
+                  ??.0?.25 Переход на версию 1.4.1
+                </h3>
+                <ul class="timeline-card__list">
+                  <li class="timeline-card__item">джины</li>
+                  <li class="timeline-card__item">79/100 скиллы,</li>
+                  <li class="timeline-card__item">фасты 79,</li>
+                  <li class="timeline-card__item">тракты 6-го уровня</li>
+                  <li class="timeline-card__item">гбп</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item-inner">
+              <div class="timeline-item">
+                <span class="timeline-item__number">3</span>
+              </div>
+              <div class="timeline-card timeline-card_right">
+                <h3 class="timeline-card__title">
+                  ??.0?.25 Переход на версию 1.4.2
+                </h3>
+                <ul class="timeline-card__list">
+                  <li class="timeline-card__item">добавление рассы амфибий</li>
+                  <li class="timeline-card__item">
+                    добавление нирваны и экипировки
+                  </li>
+                  <li class="timeline-card__item">
+                    добавление камней 12-го уровня
+                  </li>
+                  <li class="timeline-card__item">смена ад/рай</li>
+                  <li class="timeline-card__item">перенос заточки</li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item-inner">
+              <div class="timeline-item">
+                <span class="timeline-item__number">4</span>
+              </div>
+              <div class="timeline-card timeline-card_left">
+                <h3 class="timeline-card__title">
+                  ??.0?.25 Переход на версию 1.4.6
+                </h3>
+                <ul class="timeline-card__list">
+                  <li class="timeline-card__item">добавление рассы древних</li>
+                  <li class="timeline-card__item">морай</li>
+                  <li class="timeline-card__item">клан холл</li>
+                  <li class="timeline-card__item">ущелье феникса</li>
+                  <li class="timeline-card__item">новая экипировка</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="road-map-ilustration road-map-ilustration__fox"
+          src="./image/fox.png"
+          srcset="./image/fox.png 1x, ./image/fox_2x.png 2x"
+          alt="лиса"
+        />
+        <img
+          class="road-map-ilustration road-map-ilustration__girl"
+          src="./image/road-map-ilustration.png"
+          srcset="
+            ./image/road-map-ilustration.png    1x,
+            ./image/road-map-ilustration_2x.png 2x
+          "
+          alt="элис"
+        />
+      </section>
+      <section class="about">
+        <div class="container about__inner-content">
+          <h2 class="about-title">
+            <span class="about-title_span">КРАТКО О НАШЕМ ПРОЕКТЕ</span><br />
+            И ЕГО УНИКАЛЬНОСТИ
+          </h2>
+          <div class="about__inner">
+            <ul class="about-list about-list_left">
+              <li class="about-item">обновляемая версия</li>
+              <li class="about-item about-item_left">постоянная реклама</li>
+              <li class="about-item">множество ивентов</li>
+            </ul>
+            <img
+              class="about-ilustration"
+              src="./image/about-ilustration.png"
+              srcset="
+                ./image/about-ilustration.png    1x,
+                ./image/about-ilustration_2x.png 2x
+              "
+              alt="елис"
+            />
+            <ul class="about-list about-list_right">
+              <li class="about-item">опытная команда</li>
+              <li class="about-item about-item_right">стабильная работа</li>
+              <li class="about-item">уникальные разработки</li>
+            </ul>
+          </div>
+          <div class="about-button__inner">
+            <button class="about-button">УЗНАТЬ БОЛЬШЕ О НАШЕЙ КОМАНДЕ</button>
+          </div>
+        </div>
+      </section>
+      <section class="news">
+        <div class="container news__inner">
+          <ul class="news-list">
+            <li class="news-item">
+              <div class="news-item__date">25 МАЯ</div>
+              <div class="news-item__info">
+                <div class="news-item__status">ВАЖНАЯ ИНФОРМАЦИЯ</div>
+                <h4 class="news-item__title">ДАТА НАЧАЛА ЗБТ</h4>
+                <p class="news-item__text">
+                  Мы долго и тщательно готовили концепцию, и готовы её показать.
+                </p>
+                <button class="news-item__button">ПОДРОБНЕЕ</button>
+              </div>
+            </li>
+            <li class="news-item news-item_accent">
+              <div class="news-item__date">25 МАЯ</div>
+              <div class="news-item__info">
+                <div class="news-item__status">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</div>
+                <h4 class="news-item__title">ПОПУЛЯРНЫЕ ПРОБЛЕМЫ</h4>
+                <p class="news-item__text">
+                  Вы всегда можете обратиться в техническую поддержку, где вам
+                  обязательно помогут.
+                </p>
+                <button class="news-item__button">ПОДРОБНЕЕ</button>
+              </div>
+            </li>
+            <li class="news-item">
+              <div class="news-item__date">25 МАЯ</div>
+              <div class="news-item__info">
+                <div class="news-item__status">АКЦИИ</div>
+                <h4 class="news-item__title">БОНУС ПЕРЕХОДЯЩИМ КЛАНАМ</h4>
+                <p class="news-item__text">Бонусная программа для гильдий</p>
+                <button class="news-item__button">ПОДРОБНЕЕ</button>
+              </div>
+            </li>
+          </ul>
+          <div class="news-button__inner">
+            <button class="news-button">перейти ко всем новостям</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__inner">
+        <a href="#" class="logo">
+          <img
+            src="./image/logo.png"
+            srcset="./image/logo.png 1x, ./image/logo_2x.png 2x"
+            alt="REVOLUTION логотип"
+            class="logo-image"
+          />
+        </a>
+        <nav class="menu">
+          <ul class="list">
+            <li class="list__item">
+              <a href="#" class="list__link list__link_active">ГЛАВНАЯ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">ФОРУМ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">О СЕРВЕРЕ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">НАЧАТЬ ИГРУ</a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">НОВОСТИ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
