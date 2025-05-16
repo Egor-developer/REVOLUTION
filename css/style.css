@@ -21,8 +21,9 @@
   text-transform: uppercase;
 }
 
-.list__link_active {
+.list__link:hover {
   color: #a35cd9;
+  opacity: 100%;
 }
 
 .header-buttons-inner {
@@ -36,6 +37,11 @@
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.header-link:hover {
+  color: #a35cd9;
+  opacity: 100%;
 }
 
 .header-button {
@@ -96,9 +102,10 @@
   font-size: 32px;
   line-height: 150%;
   position: relative;
+  transition: .2s;
 }
 
-.hero-button_inactiv::after {
+.hero-button:hover::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -108,10 +115,6 @@
   background-color: #1f211f;
   opacity: 50%;
   border-radius: 17px;
-}
-
-.hero-button_inactiv:hover {
-  opacity: 100%;
 }
 
 .hero-image {
