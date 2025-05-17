@@ -12,6 +12,15 @@
 .list {
   display: flex;
   gap: 18px;
+  align-items: center;
+}
+
+.list__item_end {
+  margin-left: 70px;
+}
+
+.list__item_end:hover {
+  opacity: 70%;
 }
 
 .list__link {
